@@ -1,0 +1,29 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> 
+<html xmlns="http://www.w3.org/1999/xhtml"> 
+<head> 
+<title>JQuery-Json2select演示</title> 
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
+<meta name="keywords" content="城市, JQuery Plugin, Json2select, Demos" />
+<style type="text/css"> 
+<!--
+#select select{margin:0 6px 0 0;}
+-->
+</style>
+<script type="text/javascript" src="js/jquery.min.js"></script>  
+<script type="text/javascript" src="js/json2select.js" charset="gb2312"></script> 
+
+<script type="text/javascript" src="js/areaJson.js"></script> 
+<script type="text/javascript"> 
+<!--
+$(document).ready(function(){
+  $("#select").json2select(areaJson);
+});
+//-->
+</script> 
+</head> 
+ 
+<body> 
+<div id="select"></div> 
+<div> 
+</body> 
+</html>
